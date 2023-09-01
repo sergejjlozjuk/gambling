@@ -1,0 +1,20 @@
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+/*# sourceMappingURL=normalized.css.map */

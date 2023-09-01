@@ -1,0 +1,104 @@
+@import "../variables.scss";
+.footer {
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  align-items: end;
+  padding: 25px 136px;
+  border-radius: 64px 64px 0px 0px;
+  border-top: 4px solid $color-blue;
+  border-right: 4px solid $color-blue;
+  border-left: 4px solid $color-blue;
+}
+.footer__navigation {
+  color: $color-white;
+  display: flex;
+  gap: 0 41px;
+}
+.footer__navigation_item {
+  &:hover {
+    color: $color-blue;
+    text-decoration: underline;
+  }
+}
+.footer__social-container {
+  display: flex;
+  flex-direction: column;
+  gap: 13px 0;
+  align-items: end;
+}
+.footer__social-title {
+  color: $color-white;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.footer__social-links {
+  display: flex;
+  gap: 0 8px;
+  a {
+    width: 32px;
+    height: 32px;
+  }
+}
+.icon {
+  fill: $color-blue;
+  &:hover {
+    fill: url(#paint0_linear_1028_201);
+  }
+}
+.icon-gradient {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+@media screen and (max-width: 1290px) {
+  .footer {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px 0;
+  }
+  .footer__social-container {
+    flex-direction: row;
+    gap: 0px 20px;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 890px) {
+  .footer {
+    align-items: start;
+  }
+  .footer__navigation {
+    flex-direction: column;
+  }
+  .footer__social-container {
+    flex-direction: column;
+    align-items: start;
+    gap: 8px 0;
+  }
+}
+@media screen and (max-width: 590px) {
+  .footer {
+    padding: 18px;
+    border-radius: 47px 47px 0px 0px;
+    border-top: 2px solid $color-blue;
+    border-right: 2px solid $color-blue;
+    border-left: 2px solid $color-blue;
+  }
+  .footer__navigation {
+    gap: 5px 0;
+  }
+  .footer__navigation_item,
+  .footer__social-title {
+    font-size: 14px;
+  }
+  .footer__social-links {
+    gap: 0 3px;
+  }
+  .icon {
+    width: 27px;
+  }
+}

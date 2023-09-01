@@ -1,0 +1,19 @@
+$color-Nblue: #110a1d;
+$color-blue: #478bf9;
+$color-white: #fff;
+$color-purple: #9dadf2;
+
+@mixin button($type) {
+  display: flex;
+  gap: 0 5px;
+  border-radius: 24px;
+  padding: 14px 14px;
+  color: $color-white;
+  @if $type == "black" {
+    border: 2px solid $color-purple;
+    background: $color-Nblue;
+  } @else if $type == "blue" {
+    border: none;
+    background: $color-blue;
+  }
+}

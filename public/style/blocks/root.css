@@ -1,0 +1,33 @@
+.root {
+  background: radial-gradient(circle farthest-corner at 87% 80%, #478bf9 -104%, transparent 27%) #110a1d;
+  font-family: "Lexend", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+span,
+p,
+a {
+  font-family: "Lexend", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  color: #478bf9;
+}
+
+button {
+  font-family: "Lexend", sans-serif;
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=root.css.map */
