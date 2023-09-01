@@ -273,6 +273,7 @@ a {
   }
 }
 .main {
+  position: relative;
   height: 1010px;
   overflow: hidden;
   display: flex;
@@ -403,7 +404,7 @@ a {
 }
 
 .vertical-lines {
-  position: fixed;
+  position: absolute;
   overflow: hidden;
   z-index: -1;
   left: calc(50% - 151.5px);
@@ -452,9 +453,9 @@ a {
   .vertical-lines {
     width: 240px;
     transform: rotate(90deg);
-    height: 110vh;
+    height: 1500px;
     left: 42%;
-    top: -9%;
+    top: -209px;
   }
   .main__blog {
     margin-bottom: 119px;
@@ -485,7 +486,7 @@ a {
   }
   .vertical-lines {
     width: 165px;
-    top: -15%;
+    top: -31%;
   }
   .main__blog {
     margin-bottom: 117px;
