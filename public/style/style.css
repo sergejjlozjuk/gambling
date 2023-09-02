@@ -124,6 +124,7 @@ a {
   width: 100%;
   right: 0px;
   z-index: 1;
+  background: #110a1d;
 }
 .header-burger_menu li:last-child,
 .header-burger_menu li:nth-child(7) {
@@ -353,6 +354,7 @@ a {
   height: 541px;
   margin-top: 24px;
   overflow: scroll;
+  scroll-behavior: smooth;
   padding: 24px 26px 24px 24px;
   border-radius: 100px;
   border: 3px solid var(--main-blue-478-bf-9, #478bf9);
@@ -393,6 +395,9 @@ a {
 }
 .main__blog-list_item:hover {
   background: #478bf9;
+}
+.main__blog-list_item a:hover {
+  color: #fff;
 }
 .main__blog-list_item span {
   color: rgba(255, 255, 255, 0.6);
